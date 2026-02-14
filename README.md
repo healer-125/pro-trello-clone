@@ -1,97 +1,131 @@
-# Trello Clone - Next.js
+# Pro Trello Clone
 
-A modern project management tool inspired by Trello, built with Next.js, Supabase, and Clerk. This full-stack application provides a comprehensive board experience with drag-and-drop functionality, real-time collaboration, and subscription-based features.
+A production-ready, full-stack project management application inspired by Trello. Built with **Next.js 15**, **TypeScript**, **Supabase**, and **Clerk**—featuring real-time collaboration, drag-and-drop Kanban boards, and subscription-based access control.
+
+---
 
 ## Demo
 
-- Live Preview: https://trello-clone-by-shan.vercel.app
+**Live Preview:** [https://trello-clone-by-shan.vercel.app](https://trello-clone-by-shan.vercel.app)
+
+---
+
+## Skills Demonstrated
+
+### TypeScript & JavaScript
+- **TypeScript** — Full type safety, interfaces, generics, and strict mode
+- **Modern ES6+** — Async/await, destructuring, spread operators, modules
+- **Type-safe API design** — End-to-end type consistency across frontend and backend
+- **Type inference & utility types** — Efficient type composition and inference
+
+### AI & Intelligent Features
+- **AI-ready architecture** — Modular, extensible design for future ML/AI integrations
+- **Structured data models** — Clean schemas suitable for AI-powered analytics and suggestions
+- **Context-aware filtering** — Smart task filtering by priority, assignee, and due dates
+- **Search & discoverability** — Fast, queryable data layer for AI-assisted search
+
+### UI & Frontend Frameworks
+- **React 19** — Latest React with Server Components and concurrent features
+- **Next.js 15** — App Router, Server-Side Rendering, route handlers
+- **Component-based architecture** — Reusable, composable UI with clear separation of concerns
+- **Experience with:** Tailwind CSS, Shadcn/UI, Radix UI, and utility-first CSS
+
+---
 
 ## Features
 
 ### Core Functionality
-- **Kanban Board Management**: Create, edit, and organize boards with customizable colors and titles
-- **Drag & Drop Interface**: Intuitive task management with smooth drag-and-drop using @dnd-kit
-- **Column Management**: Create, edit, and delete columns to organize your workflow
-- **Task Management**: Add tasks with titles, descriptions, assignees, priorities, and due dates
-- **Real-time Updates**: Live synchronization of board changes across sessions
+- **Kanban Board Management** — Create, edit, and organize boards with customizable colors and titles
+- **Drag & Drop Interface** — Smooth task reordering with @dnd-kit
+- **Column Management** — Create, edit, and delete columns to structure workflows
+- **Task Management** — Tasks with titles, descriptions, assignees, priorities, and due dates
+- **Real-time Updates** — Live sync of board changes across sessions via Supabase
 
 ### Security & Data Protection
-- **Row Level Security (RLS)**: Database-level security ensuring users can only access their own data
-- **User Isolation**: Complete data separation between different user accounts
+- **Row Level Security (RLS)** — Database-level security so users only access their own data
+- **User Isolation** — Complete data separation between accounts
 
 ### User Experience
-- **Modern Authentication**: Secure sign-in/sign-up with Clerk integration
-- **Responsive Design**: Beautiful UI built with Tailwind CSS and Shadcn UI components
-- **Dashboard Overview**: Centralized view of all your boards with statistics
-- **Advanced Filtering**: Filter tasks by priority, assignee, and due dates
-- **Search Functionality**: Quick search across boards and tasks
+- **Modern Authentication** — Secure sign-in/sign-up with Clerk
+- **Responsive Design** — UI built with Tailwind CSS and Shadcn UI
+- **Dashboard Overview** — Centralized view of boards with statistics
+- **Advanced Filtering** — Filter tasks by priority, assignee, and due dates
+- **Search** — Search across boards and tasks
 
-### Subscription Features
-- **Free Tier**: Limited to 1 board for free users
-- **Premium Plans**: Unlimited boards and advanced features via Clerk's pricing integration
-- **Upgrade Prompts**: Seamless upgrade flow for free users
+### Subscription Model
+- **Free Tier** — Limited to 1 board for free users
+- **Premium Plans** — Unlimited boards and advanced features via Clerk pricing
+- **Upgrade Prompts** — Seamless upgrade flow for free users
 
-### Technical Features
-- **TypeScript**: Full type safety throughout the application
-- **Server-Side Rendering**: Optimized performance with Next.js 15
-- **Database Integration**: Supabase for real-time data management
-- **Component Architecture**: Modular, reusable components with feature-based organization
+### Technical Highlights
+- **Full TypeScript** — Type safety across the app
+- **Server-Side Rendering** — Next.js 15 for performance
+- **Supabase** — Real-time database and authentication
+- **Feature-based architecture** — Modular, maintainable codebase
+
+---
 
 ## Screenshots
 
-![Home](https://i.ibb.co/b5HDBpvn/trello-clone-home.png)
-- Modern landing page with feature highlights
+| Home | Sign Up | Dashboard |
+|------|---------|-----------|
+| ![Home](https://i.ibb.co/b5HDBpvn/trello-clone-home.png) | ![Sign Up](https://i.ibb.co/HTGNY3gj/trello-clone-signup.png) | ![Dashboard](https://i.ibb.co/d03BSbpJ/trello-clone-dashboard.png) |
 
-![Sign Up](https://i.ibb.co/HTGNY3gj/trello-clone-signup.png)
-- User registration with Clerk
+*Modern landing page • User registration with Clerk • Board overview and statistics*
 
-![Dashboard](https://i.ibb.co/d03BSbpJ/trello-clone-dashboard.png)
-- User dashboard with board overview and statistics
+| Filters | Board | Pricing |
+|---------|-------|---------|
+| ![Filters](https://i.ibb.co/5gk56gKV/trello-clone-dropdown.png) | ![Board](https://i.ibb.co/sJK02cFR/trello-clone-edit-board.png) | ![Pricing](https://i.ibb.co/ZpRsPFRL/trello-clone-pricing.png) |
 
-![Filters](https://i.ibb.co/5gk56gKV/trello-clone-dropdown.png)
-- Filter Dropdown on Dashboard Page
+*Filter dropdown • Interactive Kanban board • Subscription plans*
 
-![Board](https://i.ibb.co/sJK02cFR/trello-clone-edit-board.png)
-- Interactive kanban board with drag-and-drop functionality
+---
 
-![Pricing](https://i.ibb.co/ZpRsPFRL/trello-clone-pricing.png)
-- Subscription plans and pricing options
+## Tech Stack
+
+| Category | Technologies |
+|----------|--------------|
+| **Framework** | Next.js 15, React 19 |
+| **Language** | TypeScript 5 |
+| **Styling** | Tailwind CSS 4, Shadcn UI, Radix UI |
+| **Database** | Supabase (PostgreSQL) |
+| **Auth** | Clerk |
+| **Drag & Drop** | @dnd-kit |
+| **Icons** | Lucide React |
+| **Tooling** | ESLint, PostCSS, Turbopack |
+
+---
 
 ## Run Locally
 
-Clone the project
+### 1. Clone the repository
 
 ```bash
-git clone https://github.com/Mshandev/Trello-Clone.git
+git clone https://github.com/healer-125/pro-trello-clone.git
+cd pro-trello-clone
 ```
 
-Go to the project directory
-
-```bash
-cd trello-clone
-```
-
-Install dependencies
+### 2. Install dependencies
 
 ```bash
 npm install
 ```
 
-Setup Environment Variables
+### 3. Environment variables
 
-Create a `.env` file in the root folder and add the following variables:
+Create a `.env` file in the project root:
 
 ```env
 # Clerk Authentication
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
 CLERK_SECRET_KEY=your_clerk_secret_key
 
-# Supabase Database
+# Supabase
 NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
 NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
 ```
 
-Start the development server
+### 4. Start the dev server
 
 ```bash
 npm run dev
@@ -99,35 +133,36 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## Tech Stack
+---
 
-### Frontend
-- **[Next.js 15](https://nextjs.org/)** - React framework with App Router
-- **[TypeScript](https://www.typescriptlang.org/)** - Type-safe JavaScript
-- **[Tailwind CSS](https://tailwindcss.com/)** - Utility-first CSS framework
-- **[Shadcn UI](https://ui.shadcn.com/)** - Beautiful, accessible components
-- **[Lucide React](https://lucide.dev/)** - Icon library
+## Project Structure
 
-### Backend & Database
-- **[Supabase](https://supabase.com/)** - Backend-as-a-Service with PostgreSQL
-- **[Clerk](https://clerk.com/)** - Authentication and user management
+```
+pro-trello-clone/
+├── app/                    # Next.js App Router
+├── components/             # Shared UI components
+├── features/               # Feature modules (auth, boards, dashboard, pricing)
+├── lib/                    # Utilities, Supabase client, services
+└── providers/              # React context providers
+```
 
-### Drag & Drop
-- **[@dnd-kit](https://dndkit.com/)** - Modern drag-and-drop toolkit for React
-
-### Development Tools
-- **[ESLint](https://eslint.org/)** - Code linting
-- **[PostCSS](https://postcss.org/)** - CSS processing
+---
 
 ## Deployment
 
-The application is deployed on Vercel.
+Deployed on **Vercel** with automatic builds from the main branch.
 
-## Contributing
+---
 
-Contributions are always welcome!
-Just raise an issue, and we will discuss it.
+## Author
 
-## Feedback
+**healer-125**
 
-If you have any feedback, please reach out to me [here](https://www.linkedin.com/in/muhammad-shan-full-stack-developer/)
+- GitHub: [@healer-125](https://github.com/healer-125)
+- Project: [pro-trello-clone](https://github.com/healer-125/pro-trello-clone)
+
+---
+
+## License
+
+This project is available for portfolio and educational use. For questions or feedback, please open an issue on GitHub.
