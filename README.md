@@ -4,11 +4,6 @@ A production-ready, full-stack project management application inspired by Trello
 
 ---
 
-## Demo
-
-**Live Preview:** [https://trello-clone-by-shan.vercel.app](https://trello-clone-by-shan.vercel.app)
-
----
 
 ## Skills Demonstrated
 
